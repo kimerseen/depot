@@ -1,0 +1,62 @@
+
+ru:
+  layouts:
+    application:
+      title: "С Новым Годом!"
+      home: "В начало"
+      questions: "Вопросы"
+      news: "Новости"
+      contacts: "Контакты"
+  store:
+    index:
+      title: "Наш каталог"
+      add_to_cart: "Добавить в корзину"
+  carts:
+    cart:
+      title: "Ваша корзина"
+      total: "Всего"
+      checkout: "Оплатить"
+      empty: "Очистить"
+      empty_confirmation: "Вы уверены, что хотите очистить корзину?"
+  number:
+    currency:
+      format:
+        unit: "руб."
+        precision: 2
+        separator: "."
+        delimiter: ","
+        format: "%n&nbsp;%u"
+  orders:
+    new:
+      legend: "Пожалуйста введите ваши данные"
+      back: "Вернуться"
+    form:
+      name: "Имя"
+      address: "Адрес"
+      email: "Электронная почта"
+      pay_type: "Форма оплаты"
+      pay_prompt: "Выберите метод оплаты"
+      submit: "Оформить заказ"
+      
+  activerecord:
+    models:
+      order: "Заказ"
+    attributes:
+      order:
+        address: "Адрес"
+        name: "Имя"
+        email: "Электронная почта"
+        pay_type: "Форма оплаты"
+    errors:
+      messages:
+        inclusion: "является обязательным полем и не может быть пустым"
+        blank: "является обязательным полем и не может быть пустым"
+  errors:
+    template:
+      body: "Проблемы с заполнением формы"
+      header:
+        one: "1 ошибка %{model}"
+        other: "%{count} ошибок %{model}"
+
+  cart_is_empty: "Ваша корзина пуста"
+  thanks: "Спасибо за покупку!"
